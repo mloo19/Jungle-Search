@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<Skein rootNode="node-1158">
+    <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
+    <item nodeId="node-1158">
+        <command xml:space="preserve">Jungle</command>
+        <result xml:space="preserve">
+
+
+You are a scientist in the Jungle searching for the rare Kermit frog. You have been living here for a couple months now and are have just located the tree on which the Kermit frogs live, but your supplies and food are running low. If you don't find the Kermit frog soon, you will have to restart your search after replenishing your supplies.
+
+Jungle Search
+An Interactive Fiction by mloo19
+Release 1 / Serial number 190220 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Jungle Path
+Various species of trees and bushes surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+
+The Kermit frog tree is north of you.
+
+Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+</Skein>
