@@ -11,14 +11,184 @@ You are a scientist in the Jungle searching for the rare Kermit frog. You have b
 
 Jungle Search
 An Interactive Fiction by mloo19
-Release 1 / Serial number 190220 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Jungle Path
-Various species of trees and bushes surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
 
 The Kermit frog tree is north of you.
 
 Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1387"></child>
+            <child nodeId="node-1389"></child>
+            <child nodeId="node-1377"></child>
+            <child nodeId="node-1386"></child>
+            <child nodeId="node-1381"></child>
+            <child nodeId="node-1380"></child>
+            <child nodeId="node-1383"></child>
+        </children>
+    </item>
+    <item nodeId="node-1383">
+        <command xml:space="preserve">x vines</command>
+        <result xml:space="preserve">Long vines that hang off the trees and touch the ground. They are incredibly strong and sturdy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1384"></child>
+            <child nodeId="node-1400"></child>
+        </children>
+    </item>
+    <item nodeId="node-1400">
+        <command xml:space="preserve">x trees</command>
+        <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1401"></child>
+        </children>
+    </item>
+    <item nodeId="node-1401">
+        <command xml:space="preserve">hold vines</command>
+        <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1402"></child>
+        </children>
+    </item>
+    <item nodeId="node-1402">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Kermit Frog Tree
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1384">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1385"></child>
+        </children>
+    </item>
+    <item nodeId="node-1385">
+        <command xml:space="preserve">x jungle trees</command>
+        <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1380">
+        <command xml:space="preserve">x vine</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1381">
+        <command xml:space="preserve">x jungle trees</command>
+        <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1382"></child>
+        </children>
+    </item>
+    <item nodeId="node-1382">
+        <command xml:space="preserve">x vine</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1386">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">"Ahhhhh!" you scream as your legs get sucked into some quicksand. You can feel the pressure increase as you try to grab things to prevent yourself from sinking further into the quicksand.
+
+You sink further and further down until you are fully engulfed by the quicksand and die.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1377">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a backpack (being worn and closed)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1378"></child>
+        </children>
+    </item>
+    <item nodeId="node-1378">
+        <command xml:space="preserve">x bag</command>
+        <result xml:space="preserve">Your backpack is dark green and filled with a jar, your water bottle, and your favorite Scooby snacks.  Your shoulders ache from wearing it.
+It is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1379"></child>
+        </children>
+    </item>
+    <item nodeId="node-1379">
+        <command xml:space="preserve">open bag</command>
+        <result xml:space="preserve">You open the backpack, revealing a jar.
+
+Quicksand
+"Ahhhhh!" you scream as you get sucked into a quicksand trap waist-deep. You can feel the pressure increase as you widly grab things to prevent yourself from sinking further into the quicksand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">hold vines</command>
+        <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1390"></child>
+        </children>
+    </item>
+    <item nodeId="node-1390">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Kermit Frog Tree.
+
+Kermit Frog Tree
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1387">
+        <command xml:space="preserve">grab vines</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1388"></child>
+        </children>
+    </item>
+    <item nodeId="node-1388">
+        <command xml:space="preserve">hold vines</command>
+        <result xml:space="preserve">That's hardly portable.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
