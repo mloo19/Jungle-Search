@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1158">
+<Skein rootNode="node-1002">
     <generator>Inform Mac Client (Inform version 1.65/6.33/6M62)</generator>
-    <item nodeId="node-1158">
-        <command xml:space="preserve">Jungle</command>
+    <item nodeId="node-1002">
+        <command xml:space="preserve">Jungle Search</command>
         <result xml:space="preserve">
 
 
@@ -11,7 +11,7 @@ You are a scientist in the Jungle searching for the rare Kermit frog. You have b
 
 Jungle Search
 An Interactive Fiction by mloo19
-Release 1 / Serial number 190222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190226 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Jungle Path
 Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
@@ -22,35 +22,35 @@ Watch out for quicksand traps!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1387"></child>
-            <child nodeId="node-1389"></child>
-            <child nodeId="node-1377"></child>
-            <child nodeId="node-1386"></child>
-            <child nodeId="node-1381"></child>
-            <child nodeId="node-1380"></child>
-            <child nodeId="node-1383"></child>
+        <children><child nodeId="node-1018"></child>
+            <child nodeId="node-1016"></child>
+            <child nodeId="node-1013"></child>
+            <child nodeId="node-1012"></child>
+            <child nodeId="node-1010"></child>
+            <child nodeId="node-1009"></child>
+            <child nodeId="node-1003"></child>
         </children>
     </item>
-    <item nodeId="node-1383">
+    <item nodeId="node-1003">
         <command xml:space="preserve">x vines</command>
         <result xml:space="preserve">Long vines that hang off the trees and touch the ground. They are incredibly strong and sturdy.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1384"></child>
-            <child nodeId="node-1400"></child>
+        <children><child nodeId="node-1007"></child>
+            <child nodeId="node-1004"></child>
         </children>
     </item>
-    <item nodeId="node-1400">
+    <item nodeId="node-1004">
         <command xml:space="preserve">x trees</command>
         <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1401"></child>
+        <children><child nodeId="node-1005"></child>
         </children>
     </item>
-    <item nodeId="node-1401">
+    <item nodeId="node-1005">
         <command xml:space="preserve">hold vines</command>
         <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
 
@@ -58,10 +58,10 @@ Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1402"></child>
+        <children><child nodeId="node-1006"></child>
         </children>
     </item>
-    <item nodeId="node-1402">
+    <item nodeId="node-1006">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Kermit Frog Tree
@@ -70,46 +70,46 @@ You tilt your head backwards to stare up at the 80-foot tall tree. The calls of 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1384">
+    <item nodeId="node-1007">
         <command xml:space="preserve">x tree</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1385"></child>
+        <children><child nodeId="node-1008"></child>
         </children>
     </item>
-    <item nodeId="node-1385">
+    <item nodeId="node-1008">
         <command xml:space="preserve">x jungle trees</command>
         <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1380">
+    <item nodeId="node-1009">
         <command xml:space="preserve">x vine</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1381">
+    <item nodeId="node-1010">
         <command xml:space="preserve">x jungle trees</command>
         <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1382"></child>
+        <children><child nodeId="node-1011"></child>
         </children>
     </item>
-    <item nodeId="node-1382">
+    <item nodeId="node-1011">
         <command xml:space="preserve">x vine</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1386">
+    <item nodeId="node-1012">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">"Ahhhhh!" you scream as your legs get sucked into some quicksand. You can feel the pressure increase as you try to grab things to prevent yourself from sinking further into the quicksand.
 
@@ -126,27 +126,27 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1377">
+    <item nodeId="node-1013">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a backpack (being worn and closed)
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1378"></child>
+        <children><child nodeId="node-1014"></child>
         </children>
     </item>
-    <item nodeId="node-1378">
+    <item nodeId="node-1014">
         <command xml:space="preserve">x bag</command>
         <result xml:space="preserve">Your backpack is dark green and filled with a jar, your water bottle, and your favorite Scooby snacks.  Your shoulders ache from wearing it.
 It is closed.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1379"></child>
+        <children><child nodeId="node-1015"></child>
         </children>
     </item>
-    <item nodeId="node-1379">
+    <item nodeId="node-1015">
         <command xml:space="preserve">open bag</command>
         <result xml:space="preserve">You open the backpack, revealing a jar.
 
@@ -156,7 +156,7 @@ Quicksand
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1389">
+    <item nodeId="node-1016">
         <command xml:space="preserve">hold vines</command>
         <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
 
@@ -164,29 +164,86 @@ Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1390"></child>
+        <children><child nodeId="node-1017"></child>
         </children>
     </item>
-    <item nodeId="node-1390">
+    <item nodeId="node-1017">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Kermit Frog Tree.
 
 Kermit Frog Tree
-You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening.
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1127"></child>
+        </children>
+    </item>
+    <item nodeId="node-1127">
+        <command xml:space="preserve">put flies in jar</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1128"></child>
+        </children>
+    </item>
+    <item nodeId="node-1128">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">As good-looking as ever.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1129"></child>
+        </children>
+    </item>
+    <item nodeId="node-1129">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a vines
+  a backpack (being worn and closed)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1130"></child>
+        </children>
+    </item>
+    <item nodeId="node-1130">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1131"></child>
+        </children>
+    </item>
+    <item nodeId="node-1131">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1132"></child>
+        </children>
+    </item>
+    <item nodeId="node-1132">
+        <command xml:space="preserve">put flies in jar</command>
+        <result xml:space="preserve">(first taking the Flies)
+I don't suppose the Flies would care for that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1387">
+    <item nodeId="node-1018">
         <command xml:space="preserve">grab vines</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1388"></child>
+        <children><child nodeId="node-1019"></child>
         </children>
     </item>
-    <item nodeId="node-1388">
+    <item nodeId="node-1019">
         <command xml:space="preserve">hold vines</command>
         <result xml:space="preserve">That's hardly portable.
 
