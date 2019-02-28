@@ -11,7 +11,7 @@ You are a scientist in the Jungle searching for the rare Kermit frog. You have b
 
 Jungle Search
 An Interactive Fiction by mloo19
-Release 1 / Serial number 190226 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190227 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Jungle Path
 Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
@@ -26,7 +26,9 @@ Watch out for quicksand traps!
             <child nodeId="node-1016"></child>
             <child nodeId="node-1013"></child>
             <child nodeId="node-1012"></child>
+            <child nodeId="node-1247"></child>
             <child nodeId="node-1010"></child>
+            <child nodeId="node-1246"></child>
             <child nodeId="node-1009"></child>
             <child nodeId="node-1003"></child>
         </children>
@@ -93,6 +95,13 @@ You tilt your head backwards to stare up at the 80-foot tall tree. The calls of 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1246">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Dressed in some camoflauge khaki and wearing a adventurer's hat and your backpack, you are ready to trek through the Jungle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1010">
         <command xml:space="preserve">x jungle trees</command>
         <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
@@ -104,6 +113,13 @@ You tilt your head backwards to stare up at the 80-foot tall tree. The calls of 
     </item>
     <item nodeId="node-1011">
         <command xml:space="preserve">x vine</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1247">
+        <command xml:space="preserve">take kermit frog</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>

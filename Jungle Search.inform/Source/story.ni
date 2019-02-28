@@ -5,6 +5,8 @@ Use no scoring.
 When play begins: 
 	say "You are a scientist in the Jungle searching for the rare Kermit frog. You have been living here for a couple months now and are have just located the tree on which the Kermit frogs live, but your supplies and food are running low. If you don't find the Kermit frog soon, you will have to restart your search after replenishing your supplies."
 
+The description of the player is "Dressed in some camoflauge khaki and wearing a adventurer's hat [if the player is wearing the backpack]and your backpack[end if], you are ready to trek through the Jungle."
+
 The backpack is a thing. Understand "bookbag" or "bag" or "book bag" or "pack" or "back pack" as backpack. It is wearable. It is a container. It is closed and openable. The description is "Your backpack is dark green and filled with a jar, your water bottle, a notebook, and your favorite Scooby snacks.[if the player is wearing the backpack]  Your shoulders ache from wearing it.[end if][line break]It is [if the backpack is open]open[otherwise]closed[end if]."
 
 The Scooby snacks is a thing. Understand "snacks" as Scooby snacks. The Scooby snacks are edible. After eating the Scooby snacks, say "'Mmmm, delicious,' you say. You wish you had more, but your supplies are slowly depleting, so you must pace yourself." 
@@ -12,8 +14,7 @@ The Scooby snacks is a thing. Understand "snacks" as Scooby snacks. The Scooby s
 When play begins:
 	now the player is wearing the backpack.
 	
-The jar is a thing. It is in the backpack. It is a container. It is closed and openable. It is portable. The description of the jar is "A clear, glass container. [if there is something in the jar] In the jar you can see [a list of things inside the jar]. [otherwise if
-open] It seems to be empty. [otherwise] It's closed. [end if]".
+The jar is a thing. It is in the backpack. It is a container. It is portable. The description of the jar is "A clear, glass container. [if there is something in the jar] In the jar you can see [a list of things inside the jar]. [otherwise] It seems to be empty. [end if]".
 
 The notebook is a thing in the backpack. Understand "book" as notebook. The description is "Your notebook that you have taken notes in during your search for the rare Kermit Frog. Your most recent notes are 'The Kermit Frogs like to eat flies. Kermit Frogs like to live at the top of the Kermit Frog Tree to be close to the Rainbow.'"
 
@@ -24,7 +25,7 @@ Instead of going north:
 		now the player is stuck;
 		say "'Ahhhhh!' you scream as your legs get sucked into some quicksand. You can feel the pressure increase as you try to grab things to prevent yourself from sinking further into the quicksand.";
 	if the player is holding the vines:
-		say "You use the vines to pull yourself through the sticky quicksand laid on the path to the Kermit Frog Tree.";
+		say "You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.";
 		continue the action.	
 		
 Instead of going south:
@@ -54,18 +55,14 @@ The jungle trees are scenery in the Jungle Path. The jungle trees are undescribe
 
 The vines are things on the jungle trees. Understand "vine" as the vines. The vines are undescribed. The description is "Long vines that hang off the trees and touch the ground. They are incredibly strong and sturdy."
 
-The Kermit Frog Tree is a room. Understand "tree" or "frog tree" as the Kermit Frog Tree. The Kermit Frog Tree is north of the Jungle Path. The description of the Kermit Frog Tree is "You tilt your head backwards to stare up at the 80-foot tall tree. The calls of 'Rainbow Connection' are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. [line break] The path you came from is south and the branch of the Kermit Frogs is above you."
+The Tree is a room. Understand "frog tree" as the Tree. The Tree is north of the Jungle Path. The description of the Tree is "You tilt your head backwards to stare up at the 80-foot tall tree. The calls of 'Rainbow Connection' are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. [line break] The path you came from is south and the branch of the Kermit Frogs is above you."
 
-The Flies is an animal in the Kermit Frog Tree. The flies are portable. Understand "fly" or "mosquito" as the Flies. It is undescribed. The description of the Flies is "Pesky insects that fly all around the Jungle."
+The Flies is an animal in the Tree. The flies are portable. Understand "fly" or "mosquito" as the Flies. It is undescribed. The description of the Flies is "Pesky insects that fly all around the Jungle."
 
 Instead of inserting the Flies into the jar:
 	if the player is holding the jar:
-		if the jar is open:
-			say "You collect some flies into your jar and screw the lid back on.";
-			continue the action;
-			now the jar is closed;	
-		if the jar is closed:
-			say "You use the jar and swing your arm to try to collect some flies, but when you look at the jar, it is empty. You start to laugh as you realize the jar is still closed.";
+		say "You collect some flies into your jar and screw the lid back on.";
+		continue the action;
 	otherwise:
 		say "You try to catch the flies with your fingers Mr. Miyagi-style, but aren't having much success. Then you remember you have some useful tools in your backpack.".
 
@@ -73,16 +70,12 @@ Catching is an action applying to one thing. Understand "catch [something]" or "
 
 Instead of catching the Flies:
 	if the player is holding the jar:
-		if the jar is open:
-			say "You collect some flies into your jar and screw the lid back on.";
-			continue the action;
-			now the jar is closed;	
-		if the jar is closed:
-			say "You use the jar and swing your arm to try to collect some flies, but when you look at the jar, it is empty. You start to laugh as you realize the jar is still closed.";
+		say "You collect some flies into your jar and screw the lid back on.";
+		continue the action;	
 	otherwise:
 		say "You try to catch the flies with your fingers Mr. Miyagi-style, but aren't having much success. Then you remember you have some useful tools in your backpack.".
 		
-The Kermit Frog Branch is a room. It is above the Kermit Frog Tree. Understand "branch" as the Kermit Frog Branch. "You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. [line break] The way to the path is below you."
+The Branch is a room. It is above the Tree. "You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. [line break] The way to the path is below you."
 
 Instead of going up:
 	if the player is holding something:
@@ -91,16 +84,37 @@ Instead of going up:
 		say "You grab onto the lower branches of the tree and start climbing.";
 		continue the action.
 
-[put jar in backpack code]
-
 Releasing is an action applying to one thing. Understand "release [something]" or "free [something]" or "set [something] free" as releasing.
 
 Instead of releasing the Flies:
-	if the player is holding the jar:
-		if the jar is open:
-			say "The flies scatter all around you. You can see the Kermit Frogs coming out of their hiding spots because of the tempting food.";
-			continue the action;	
-		if the jar is closed:
-			say "It's hard to release the flies if the jar is closed.";
+	if the player is in the Branch:
+		if the player is holding the jar:
+			if the Flies are in the jar:
+				say "The flies scatter all around you. You can see the Kermit Frogs coming out of their hiding spots because of the tempting food.";
+				continue the action;	
+			otherwise:
+				say "As you shake the jar, [a list of things in the jar] fall out.";
+		otherwise:
+			say "Wait, where are the flies?";
 	otherwise:
-		say "Wait, where are the flies?".
+		say "You watch as all the flies fly away.".
+		
+The Kermit Frog is an animal. It is in the Branch. Understand "frog" or "Kermit" as the Kermit Frog. The description of the Kermit Frog is "You are looking for the elusive vibrant green frog with a long red tounge and a Jester's collar."
+
+Instead of taking the Kermit Frog:
+	if the player is in the Branch:
+		if the Flies are not in the jar:
+			if the player is holding the jar:
+				say "You caught one!";
+				continue the action;
+			otherwise:
+				say "You get one Kermit Frog, but it is too slippery and escapes.";
+		otherwise:
+			say "The Kermit Frogs are still hiding. You need to lure them out.";
+	otherwise:
+		say "You haven't found the Kermit Frogs yet.".
+
+An every turn rule:
+	if the Kermit Frog is in the jar:
+		say "You win! Now you can go back to your lab and study this amazing creature.";
+		end the story finally.
