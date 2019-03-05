@@ -5,7 +5,7 @@ Use no scoring.
 When play begins: 
 	say "You are a scientist in the Jungle searching for the rare Kermit frog. You have been living here for a couple months now and are have just located the tree on which the Kermit frogs live, but your supplies and food are running low. If you don't find the Kermit frog soon, you will have to restart your search after replenishing your supplies."
 
-The description of the player is "Dressed in some camoflauge khaki and wearing a adventurer's hat [if the player is wearing the backpack]and your backpack[end if], you are ready to trek through the Jungle."
+The description of the player is "Dressed in some camouflage khaki and wearing a adventurer's hat [if the player is wearing the backpack]and your backpack[end if], you are ready to trek through the Jungle."
 
 The player has a number called items-carried. The items-carried of the player is 0. 
 
@@ -23,7 +23,7 @@ After dropping the notebook:
 	decrease the items-carried of the player by 1.
 	
 Instead of inserting the notebook into the backpack:
-	say "You put the Snotebook back in your backpack.";
+	say "You put the notebook back in your backpack.";
 	decrease the items-carried of the player by 1;
 	move the notebook to the backpack.
 
@@ -169,7 +169,7 @@ Instead of releasing the Flies:
 	otherwise:
 		say "You watch as all the flies fly away.".
 		
-The Kermit Frog is an animal. It is in the Branch. Understand "frog" or "Kermit" as the Kermit Frog. The description of the Kermit Frog is "You are looking for the elusive vibrant green frog with a long red tounge and a Jester's collar."
+The Kermit Frog is an animal. It is in the Branch. Understand "frog" or "Kermit" as the Kermit Frog. The description of the Kermit Frog is "You are looking for the elusive vibrant green frog with a long red tongue and a Jester's collar."
 
 Instead of examining the Kermit Frog:
 	if the player is in the Branch:
