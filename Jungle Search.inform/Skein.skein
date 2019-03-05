@@ -11,22 +11,24 @@ You are a scientist in the Jungle searching for the rare Kermit frog. You have b
 
 Jungle Search
 An Interactive Fiction by mloo19
-Release 1 / Serial number 190227 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 190304 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Jungle Path
 Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
 
-The Kermit frog tree is north of you.
+The Kermit frog Tree is north of you.
 
 Watch out for quicksand traps!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1018"></child>
+        <children><child nodeId="node-1444"></child>
+            <child nodeId="node-1018"></child>
             <child nodeId="node-1016"></child>
             <child nodeId="node-1013"></child>
             <child nodeId="node-1012"></child>
             <child nodeId="node-1247"></child>
+            <child nodeId="node-1395"></child>
             <child nodeId="node-1010"></child>
             <child nodeId="node-1246"></child>
             <child nodeId="node-1009"></child>
@@ -65,9 +67,29 @@ Taken.
     </item>
     <item nodeId="node-1006">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">
-Kermit Frog Tree
-You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening.
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
+
+Tree
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1270"></child>
+        </children>
+    </item>
+    <item nodeId="node-1270">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1271"></child>
+        </children>
+    </item>
+    <item nodeId="node-1271">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -101,6 +123,152 @@ You tilt your head backwards to stare up at the 80-foot tall tree. The calls of 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1459"></child>
+            <child nodeId="node-1249"></child>
+        </children>
+    </item>
+    <item nodeId="node-1249">
+        <command xml:space="preserve">x backpack</command>
+        <result xml:space="preserve">Your backpack is dark green and filled with a jar, your water bottle, a notebook, and your favorite Scooby snacks.  Your shoulders ache from wearing it.
+It is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1250"></child>
+            <child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">x water bottle</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">x scooby snacks</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1260"></child>
+        </children>
+    </item>
+    <item nodeId="node-1260">
+        <command xml:space="preserve">eat snacks</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1261"></child>
+        </children>
+    </item>
+    <item nodeId="node-1261">
+        <command xml:space="preserve">x notebook</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1262"></child>
+        </children>
+    </item>
+    <item nodeId="node-1262">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1263"></child>
+        </children>
+    </item>
+    <item nodeId="node-1263">
+        <command xml:space="preserve">drink water</command>
+        <result xml:space="preserve">There's nothing suitable to drink here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1264"></child>
+        </children>
+    </item>
+    <item nodeId="node-1264">
+        <command xml:space="preserve">eat snacks</command>
+        <result xml:space="preserve">(first taking the Scooby snacks)
+"Mmmm, delicious," you say. You wish you had more, but your supplies are slowly depleting, so you must pace yourself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1265"></child>
+        </children>
+    </item>
+    <item nodeId="node-1265">
+        <command xml:space="preserve">x notebook</command>
+        <result xml:space="preserve">Your notebook that you have taken notes in during your search for the rare Kermit Frog. Your most recent notes are "The Kermit Frogs like to eat flies. Kermit Frogs like to live at the top of the Kermit Frog Tree to be close to the Rainbow."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1250">
+        <command xml:space="preserve">drink water</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1251"></child>
+        </children>
+    </item>
+    <item nodeId="node-1251">
+        <command xml:space="preserve">drink water bottle</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1459">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a backpack (being worn and closed)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1460"></child>
+        </children>
+    </item>
+    <item nodeId="node-1460">
+        <command xml:space="preserve">x backpack</command>
+        <result xml:space="preserve">Your backpack is dark green and packed with a jar, your water bottle, a notebook, and your favorite Scooby snacks.  Your shoulders ache from wearing it.
+It is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1461"></child>
+        </children>
+    </item>
+    <item nodeId="node-1461">
+        <command xml:space="preserve">x notebook</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1462"></child>
+        </children>
+    </item>
+    <item nodeId="node-1462">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1463"></child>
+        </children>
+    </item>
+    <item nodeId="node-1463">
+        <command xml:space="preserve">x notebook</command>
+        <result xml:space="preserve">Your notebook that you have taken notes in during your search for the rare Kermit Frog. Your most recent notes are "The Kermit Frogs like to eat flies. Kermit Frogs like to live at the top of the Kermit Frog Tree to be close to the Rainbow."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1010">
         <command xml:space="preserve">x jungle trees</command>
@@ -114,6 +282,120 @@ You tilt your head backwards to stare up at the 80-foot tall tree. The calls of 
     <item nodeId="node-1011">
         <command xml:space="preserve">x vine</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1395">
+        <command xml:space="preserve">take vines</command>
+        <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1396"></child>
+        </children>
+    </item>
+    <item nodeId="node-1396">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
+
+Tree Trunk
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1397"></child>
+        </children>
+    </item>
+    <item nodeId="node-1397">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1398"></child>
+        </children>
+    </item>
+    <item nodeId="node-1398">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You take the jar out of your backpack.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1399"></child>
+        </children>
+    </item>
+    <item nodeId="node-1399">
+        <command xml:space="preserve">eat snacks</command>
+        <result xml:space="preserve">(first taking the Scooby snacks)
+"Mmmm, delicious," you say. You wish you had more, but your supplies are slowly depleting, so you must pace yourself.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1400"></child>
+        </children>
+    </item>
+    <item nodeId="node-1400">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You collect some flies into your jar and screw the lid back on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1401"></child>
+        </children>
+    </item>
+    <item nodeId="node-1401">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar back in your backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1402"></child>
+        </children>
+    </item>
+    <item nodeId="node-1402">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1403"></child>
+        </children>
+    </item>
+    <item nodeId="node-1403">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You take the jar out of your backpack.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1404"></child>
+        </children>
+    </item>
+    <item nodeId="node-1404">
+        <command xml:space="preserve">release flies</command>
+        <result xml:space="preserve">The flies scatter all around you. You can see the Kermit Frogs coming out of their hiding spots because of the tempting food.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1405"></child>
+        </children>
+    </item>
+    <item nodeId="node-1405">
+        <command xml:space="preserve">take frog</command>
+        <result xml:space="preserve">You caught one!
+
+I don't suppose the Kermit Frog would care for that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -141,6 +423,828 @@ You sink further and further down until you are fully engulfed by the quicksand 
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1273"></child>
+        </children>
+    </item>
+    <item nodeId="node-1273">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You are a scientist in the Jungle searching for the rare Kermit frog. You have been living here for a couple months now and are have just located the tree on which the Kermit frogs live, but your supplies and food are running low. If you don't find the Kermit frog soon, you will have to restart your search after replenishing your supplies.
+
+Jungle Search
+An Interactive Fiction by mloo19
+Release 1 / Serial number 190304 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Jungle Path
+Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+
+The Kermit frog Tree is north of you.
+
+Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1274"></child>
+            <child nodeId="node-1420"></child>
+        </children>
+    </item>
+    <item nodeId="node-1420">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1421"></child>
+        </children>
+    </item>
+    <item nodeId="node-1421">
+        <command xml:space="preserve">x vines</command>
+        <result xml:space="preserve">Long vines that hang off the trees and touch the ground. They are incredibly strong and sturdy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1422"></child>
+        </children>
+    </item>
+    <item nodeId="node-1422">
+        <command xml:space="preserve">climb onto vines</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1423"></child>
+        </children>
+    </item>
+    <item nodeId="node-1423">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a backpack (being worn and closed)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1424"></child>
+        </children>
+    </item>
+    <item nodeId="node-1424">
+        <command xml:space="preserve">x backpck</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1425"></child>
+        </children>
+    </item>
+    <item nodeId="node-1425">
+        <command xml:space="preserve">oops backpack</command>
+        <result xml:space="preserve">Your backpack is dark green and packed with a jar, your water bottle, a notebook, and your favorite Scooby snacks.  Your shoulders ache from wearing it.
+It is closed.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1426"></child>
+        </children>
+    </item>
+    <item nodeId="node-1426">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">"Ahhhhh!" you scream as your legs get sucked into some quicksand. You can feel the pressure increase as you try to grab things to prevent yourself from sinking further into the quicksand.
+
+You sink further and further down until you are fully engulfed by the quicksand and die.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1427"></child>
+        </children>
+    </item>
+    <item nodeId="node-1427">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You are a scientist in the Jungle searching for the rare Kermit frog. You have been living here for a couple months now and are have just located the tree on which the Kermit frogs live, but your supplies and food are running low. If you don't find the Kermit frog soon, you will have to restart your search after replenishing your supplies.
+
+Jungle Search
+An Interactive Fiction by mloo19
+Release 1 / Serial number 190304 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Jungle Path
+Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+
+The Kermit frog Tree is north of you.
+
+Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1428"></child>
+        </children>
+    </item>
+    <item nodeId="node-1428">
+        <command xml:space="preserve">hold vines</command>
+        <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1429"></child>
+        </children>
+    </item>
+    <item nodeId="node-1429">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
+
+Tree Trunk
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1430"></child>
+        </children>
+    </item>
+    <item nodeId="node-1430">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1431"></child>
+        </children>
+    </item>
+    <item nodeId="node-1431">
+        <command xml:space="preserve">x frog</command>
+        <result xml:space="preserve">You are looking for the elusive vibrant green frog with a long red tounge and a Jester's collar.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1432"></child>
+        </children>
+    </item>
+    <item nodeId="node-1432">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1433"></child>
+        </children>
+    </item>
+    <item nodeId="node-1433">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">
+Tree Trunk
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1434"></child>
+        </children>
+    </item>
+    <item nodeId="node-1434">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1435"></child>
+        </children>
+    </item>
+    <item nodeId="node-1435">
+        <command xml:space="preserve">x nook</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1436"></child>
+        </children>
+    </item>
+    <item nodeId="node-1436">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">
+Tree Trunk
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1437"></child>
+        </children>
+    </item>
+    <item nodeId="node-1437">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
+
+You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1438"></child>
+        </children>
+    </item>
+    <item nodeId="node-1438">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path.
+
+Jungle Path
+Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+
+The Kermit frog Tree is north of you.
+
+Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1439"></child>
+        </children>
+    </item>
+    <item nodeId="node-1439">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path.
+
+You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1440"></child>
+        </children>
+    </item>
+    <item nodeId="node-1440">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1441"></child>
+        </children>
+    </item>
+    <item nodeId="node-1441">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
+
+Tree Trunk
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1442"></child>
+        </children>
+    </item>
+    <item nodeId="node-1442">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1443"></child>
+        </children>
+    </item>
+    <item nodeId="node-1443">
+        <command xml:space="preserve">get frog</command>
+        <result xml:space="preserve">You caught one!
+
+You win! Now you can go back to your lab and study this amazing creature.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1274">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">"Ahhhhh!" you scream as your legs get sucked into some quicksand. You can feel the pressure increase as you try to grab things to prevent yourself from sinking further into the quicksand.
+
+You sink further and further down until you are fully engulfed by the quicksand and die.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1275"></child>
+        </children>
+    </item>
+    <item nodeId="node-1275">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You are a scientist in the Jungle searching for the rare Kermit frog. You have been living here for a couple months now and are have just located the tree on which the Kermit frogs live, but your supplies and food are running low. If you don't find the Kermit frog soon, you will have to restart your search after replenishing your supplies.
+
+Jungle Search
+An Interactive Fiction by mloo19
+Release 1 / Serial number 190228 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Jungle Path
+Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+
+The Kermit frog tree is north of you.
+
+Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1276"></child>
+        </children>
+    </item>
+    <item nodeId="node-1276">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1277"></child>
+        </children>
+    </item>
+    <item nodeId="node-1277">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1278"></child>
+        </children>
+    </item>
+    <item nodeId="node-1278">
+        <command xml:space="preserve">x trees</command>
+        <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1279"></child>
+        </children>
+    </item>
+    <item nodeId="node-1279">
+        <command xml:space="preserve">take vine</command>
+        <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1280"></child>
+        </children>
+    </item>
+    <item nodeId="node-1280">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
+
+Tree
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1281"></child>
+        </children>
+    </item>
+    <item nodeId="node-1281">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">It is really hard to climb while holding so many things!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1282"></child>
+        </children>
+    </item>
+    <item nodeId="node-1282">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a vines
+  a backpack (being worn and closed)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1283"></child>
+        </children>
+    </item>
+    <item nodeId="node-1283">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1284"></child>
+        </children>
+    </item>
+    <item nodeId="node-1284">
+        <command xml:space="preserve">read notebook</command>
+        <result xml:space="preserve">Your notebook that you have taken notes in during your search for the rare Kermit Frog. Your most recent notes are "The Kermit Frogs like to eat flies. Kermit Frogs like to live at the top of the Kermit Frog Tree to be close to the Rainbow."
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1285"></child>
+        </children>
+    </item>
+    <item nodeId="node-1285">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You try to catch the flies with your fingers Mr. Miyagi-style, but aren't having much success. Then you remember you have some useful tools in your backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1286"></child>
+        </children>
+    </item>
+    <item nodeId="node-1286">
+        <command xml:space="preserve">catch flies in jar</command>
+        <result xml:space="preserve">I only understood you as far as wanting to catch the Flies.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1287"></child>
+        </children>
+    </item>
+    <item nodeId="node-1287">
+        <command xml:space="preserve">open jar</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1288"></child>
+        </children>
+    </item>
+    <item nodeId="node-1288">
+        <command xml:space="preserve">use jar</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1289"></child>
+        </children>
+    </item>
+    <item nodeId="node-1289">
+        <command xml:space="preserve">use jar to trap flies</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1290"></child>
+        </children>
+    </item>
+    <item nodeId="node-1290">
+        <command xml:space="preserve">hold jar</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1291"></child>
+        </children>
+    </item>
+    <item nodeId="node-1291">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You collect some flies into your jar and screw the lid back on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1292"></child>
+        </children>
+    </item>
+    <item nodeId="node-1292">
+        <command xml:space="preserve">use flies</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1293"></child>
+        </children>
+    </item>
+    <item nodeId="node-1293">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a jar
+  a vines
+  a backpack (being worn and open)
+    a Scooby snacks
+    a Water Bottle
+    a notebook
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1294"></child>
+        </children>
+    </item>
+    <item nodeId="node-1294">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">It is really hard to climb while holding so many things!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1295"></child>
+        </children>
+    </item>
+    <item nodeId="node-1295">
+        <command xml:space="preserve">drop vine</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1296"></child>
+        </children>
+    </item>
+    <item nodeId="node-1296">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar into the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1297"></child>
+        </children>
+    </item>
+    <item nodeId="node-1297">
+        <command xml:space="preserve">close backpack</command>
+        <result xml:space="preserve">You close the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1298"></child>
+        </children>
+    </item>
+    <item nodeId="node-1298">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">It is really hard to climb while holding so many things!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1299"></child>
+        </children>
+    </item>
+    <item nodeId="node-1299">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1300"></child>
+        </children>
+    </item>
+    <item nodeId="node-1300">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a backpack (being worn and closed)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1301"></child>
+        </children>
+    </item>
+    <item nodeId="node-1301">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a jar, a Scooby snacks, a Water Bottle and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1302"></child>
+        </children>
+    </item>
+    <item nodeId="node-1302">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1303"></child>
+        </children>
+    </item>
+    <item nodeId="node-1303">
+        <command xml:space="preserve">drop backpack</command>
+        <result xml:space="preserve">(first taking the backpack off)
+Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1304"></child>
+        </children>
+    </item>
+    <item nodeId="node-1304">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a jar
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1305"></child>
+        </children>
+    </item>
+    <item nodeId="node-1305">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">It is really hard to climb while holding so many things!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1306"></child>
+        </children>
+    </item>
+    <item nodeId="node-1306">
+        <command xml:space="preserve">x room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1307"></child>
+        </children>
+    </item>
+    <item nodeId="node-1307">
+        <command xml:space="preserve">x</command>
+        <result xml:space="preserve">(the jar)
+A clear, glass container.  It seems to be empty. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1308"></child>
+        </children>
+    </item>
+    <item nodeId="node-1308">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1309"></child>
+        </children>
+    </item>
+    <item nodeId="node-1309">
+        <command xml:space="preserve">x trees</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1310"></child>
+        </children>
+    </item>
+    <item nodeId="node-1310">
+        <command xml:space="preserve">put on backpack</command>
+        <result xml:space="preserve">(first taking the backpack)
+You put on the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1311"></child>
+        </children>
+    </item>
+    <item nodeId="node-1311">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a backpack (being worn and open)
+    a Scooby snacks
+    a Water Bottle
+    a notebook
+  a jar
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1312"></child>
+        </children>
+    </item>
+    <item nodeId="node-1312">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar into the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1313"></child>
+        </children>
+    </item>
+    <item nodeId="node-1313">
+        <command xml:space="preserve">close backpack</command>
+        <result xml:space="preserve">You close the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1314"></child>
+        </children>
+    </item>
+    <item nodeId="node-1314">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a backpack (being worn and closed)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1315"></child>
+        </children>
+    </item>
+    <item nodeId="node-1315">
+        <command xml:space="preserve">climb tree</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1316"></child>
+        </children>
+    </item>
+    <item nodeId="node-1316">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">It is really hard to climb while holding so many things!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1317"></child>
+        </children>
+    </item>
+    <item nodeId="node-1317">
+        <command xml:space="preserve">drop backpack</command>
+        <result xml:space="preserve">(first taking the backpack off)
+Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1318"></child>
+        </children>
+    </item>
+    <item nodeId="node-1318">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1319"></child>
+        </children>
+    </item>
+    <item nodeId="node-1319">
+        <command xml:space="preserve">catch frog</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1320"></child>
+        </children>
+    </item>
+    <item nodeId="node-1320">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1321"></child>
+        </children>
+    </item>
+    <item nodeId="node-1321">
+        <command xml:space="preserve">catch frog</command>
+        <result xml:space="preserve">&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1322"></child>
+        </children>
+    </item>
+    <item nodeId="node-1322">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Tree
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+You can see a backpack (closed) and a vines here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1323"></child>
+        </children>
+    </item>
+    <item nodeId="node-1323">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1013">
         <command xml:space="preserve">i</command>
@@ -149,7 +1253,8 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
+        <children><child nodeId="node-1347"></child>
+            <child nodeId="node-1014"></child>
         </children>
     </item>
     <item nodeId="node-1014">
@@ -172,11 +1277,240 @@ Quicksand
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1016">
+    <item nodeId="node-1347">
+        <command xml:space="preserve">x ba</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1348"></child>
+        </children>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Jungle Path
+Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+
+The Kermit frog Tree is north of you.
+
+Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">walk</command>
+        <result xml:space="preserve">You'll have to say which compass direction to go in.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">walk N</command>
+        <result xml:space="preserve">"Ahhhhh!" you scream as your legs get sucked into some quicksand. You can feel the pressure increase as you try to grab things to prevent yourself from sinking further into the quicksand.
+
+You sink further and further down until you are fully engulfed by the quicksand and die.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">restart</command>
+        <result xml:space="preserve">
+
+
+You are a scientist in the Jungle searching for the rare Kermit frog. You have been living here for a couple months now and are have just located the tree on which the Kermit frogs live, but your supplies and food are running low. If you don't find the Kermit frog soon, you will have to restart your search after replenishing your supplies.
+
+Jungle Search
+An Interactive Fiction by mloo19
+Release 1 / Serial number 190228 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Jungle Path
+Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+
+The Kermit frog Tree is north of you.
+
+Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">x trees</command>
+        <result xml:space="preserve">Tall trees that are covered in a green moss. Small ferns grow at the base of the trees, and vines hang from the tree branches.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">x vines</command>
+        <result xml:space="preserve">Long vines that hang off the trees and touch the ground. They are incredibly strong and sturdy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
         <command xml:space="preserve">hold vines</command>
         <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
 
-Taken.
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
+
+Tree
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1356"></child>
+        </children>
+    </item>
+    <item nodeId="node-1356">
+        <command xml:space="preserve">x Kermit</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1357"></child>
+        </children>
+    </item>
+    <item nodeId="node-1357">
+        <command xml:space="preserve">x tree</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1358"></child>
+        </children>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">x Tree</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">x branch</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">walk N</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
+
+You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">walk W</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1362"></child>
+        </children>
+    </item>
+    <item nodeId="node-1362">
+        <command xml:space="preserve">walk E</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1363"></child>
+        </children>
+    </item>
+    <item nodeId="node-1363">
+        <command xml:space="preserve">walk S</command>
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path.
+
+Jungle Path
+Various species of large jungle trees covered in vines surround you. You can hear the caws from the multi-colored birds flying above your head as you walk to the tree where you last saw the Kermit frogs. As you continue walking, you can hear the distinct "Rainbow Connection" call of the Kermit frogs.
+
+The Kermit frog Tree is north of you.
+
+Watch out for quicksand traps!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1364"></child>
+        </children>
+    </item>
+    <item nodeId="node-1364">
+        <command xml:space="preserve">climb</command>
+        <result xml:space="preserve">What do you want to climb?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1365"></child>
+        </children>
+    </item>
+    <item nodeId="node-1365">
+        <command xml:space="preserve">climb tree</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1366"></child>
+        </children>
+    </item>
+    <item nodeId="node-1366">
+        <command xml:space="preserve">climb vine</command>
+        <result xml:space="preserve">Little is to be achieved by that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1367"></child>
+        </children>
+    </item>
+    <item nodeId="node-1367">
+        <command xml:space="preserve">up</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1016">
+        <command xml:space="preserve">hold vines</command>
+        <result xml:space="preserve">You grab onto the vines just in case there is a quicksand trap nearby.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -185,15 +1519,108 @@ Taken.
     </item>
     <item nodeId="node-1017">
         <command xml:space="preserve">n</command>
-        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Kermit Frog Tree.
+        <result xml:space="preserve">You use the vines to pull yourself through the sticky quicksand laid on the path to the Tree with the Kermit Frogs.
 
-Kermit Frog Tree
-You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on.
+Tree Trunk
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1127"></child>
+        <children><child nodeId="node-1370"></child>
+            <child nodeId="node-1384"></child>
+            <child nodeId="node-1127"></child>
+            <child nodeId="node-1326"></child>
         </children>
+    </item>
+    <item nodeId="node-1326">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1327"></child>
+        </children>
+    </item>
+    <item nodeId="node-1327">
+        <command xml:space="preserve">x me</command>
+        <result xml:space="preserve">Dressed in some camoflauge khaki and wearing a adventurer's hat and your backpack, you are ready to trek through the Jungle.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1328"></child>
+        </children>
+    </item>
+    <item nodeId="node-1328">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1329"></child>
+        </children>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+        </children>
+    </item>
+    <item nodeId="node-1330">
+        <command xml:space="preserve">catch flies in jar</command>
+        <result xml:space="preserve">I only understood you as far as wanting to catch the Flies.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1331"></child>
+        </children>
+    </item>
+    <item nodeId="node-1331">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Tree
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1332"></child>
+        </children>
+    </item>
+    <item nodeId="node-1332">
+        <command xml:space="preserve">hold jar</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1333"></child>
+        </children>
+    </item>
+    <item nodeId="node-1333">
+        <command xml:space="preserve">catch flies in jar</command>
+        <result xml:space="preserve">I only understood you as far as wanting to catch the Flies.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You collect some flies into your jar and screw the lid back on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar into the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1127">
         <command xml:space="preserve">put flies in jar</command>
@@ -250,6 +1677,332 @@ I don't suppose the Flies would care for that.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1384">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1409"></child>
+            <child nodeId="node-1385"></child>
+        </children>
+    </item>
+    <item nodeId="node-1385">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You take the jar out of your backpack.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1386"></child>
+        </children>
+    </item>
+    <item nodeId="node-1386">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You collect some flies into your jar and screw the lid back on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1387"></child>
+        </children>
+    </item>
+    <item nodeId="node-1387">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar back in your backpack.
+
+You put the jar into the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1388"></child>
+        </children>
+    </item>
+    <item nodeId="node-1388">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Tree Trunk
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1389"></child>
+        </children>
+    </item>
+    <item nodeId="node-1389">
+        <command xml:space="preserve">x jar</command>
+        <result xml:space="preserve">A clear, glass container.  In the jar you can see a Flies. 
+
+In the jar is a Flies.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1390"></child>
+        </children>
+    </item>
+    <item nodeId="node-1390">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar back in your backpack.
+
+You put the jar into the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1391"></child>
+        </children>
+    </item>
+    <item nodeId="node-1391">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1392"></child>
+        </children>
+    </item>
+    <item nodeId="node-1392">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You take the jar out of your backpack.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1393"></child>
+        </children>
+    </item>
+    <item nodeId="node-1393">
+        <command xml:space="preserve">release flies</command>
+        <result xml:space="preserve">The flies scatter all around you. You can see the Kermit Frogs coming out of their hiding spots because of the tempting food.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1394"></child>
+        </children>
+    </item>
+    <item nodeId="node-1394">
+        <command xml:space="preserve">take frog</command>
+        <result xml:space="preserve">The Kermit Frogs are still hiding. You need to lure them out.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1409">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You try to catch the flies with your fingers Mr. Miyagi-style, but aren't having much success. Then you remember you have some useful tools in your backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1410"></child>
+        </children>
+    </item>
+    <item nodeId="node-1410">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You take the jar out of your backpack.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1411"></child>
+        </children>
+    </item>
+    <item nodeId="node-1411">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You collect some flies into your jar and screw the lid back on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1412"></child>
+        </children>
+    </item>
+    <item nodeId="node-1412">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">It is really hard to climb while holding so many things!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1413"></child>
+        </children>
+    </item>
+    <item nodeId="node-1413">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar back in your backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1414"></child>
+        </children>
+    </item>
+    <item nodeId="node-1414">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1415"></child>
+        </children>
+    </item>
+    <item nodeId="node-1415">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You take the jar out of your backpack.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1416"></child>
+        </children>
+    </item>
+    <item nodeId="node-1416">
+        <command xml:space="preserve">release flies</command>
+        <result xml:space="preserve">The flies scatter all around you. You can see the Kermit Frogs coming out of their hiding spots because of the tempting food.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1417"></child>
+        </children>
+    </item>
+    <item nodeId="node-1417">
+        <command xml:space="preserve">take frog</command>
+        <result xml:space="preserve">You caught one!
+
+You win! Now you can go back to your lab and study this amazing creature.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1370">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You try to catch the flies with your fingers Mr. Miyagi-style, but aren't having much success. Then you remember you have some useful tools in your backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1371"></child>
+        </children>
+    </item>
+    <item nodeId="node-1371">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1372"></child>
+        </children>
+    </item>
+    <item nodeId="node-1372">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1373"></child>
+        </children>
+    </item>
+    <item nodeId="node-1373">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1374"></child>
+        </children>
+    </item>
+    <item nodeId="node-1374">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You collect some flies into your jar and screw the lid back on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1375"></child>
+        </children>
+    </item>
+    <item nodeId="node-1375">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar into the backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1376"></child>
+        </children>
+    </item>
+    <item nodeId="node-1376">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1377"></child>
+        </children>
+    </item>
+    <item nodeId="node-1377">
+        <command xml:space="preserve">release flies</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1378"></child>
+        </children>
+    </item>
+    <item nodeId="node-1378">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1379"></child>
+        </children>
+    </item>
+    <item nodeId="node-1379">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1380"></child>
+        </children>
+    </item>
+    <item nodeId="node-1380">
+        <command xml:space="preserve">release flies</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1381"></child>
+        </children>
+    </item>
+    <item nodeId="node-1381">
+        <command xml:space="preserve">x jar</command>
+        <result xml:space="preserve">A clear, glass container.  It seems to be empty. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1018">
         <command xml:space="preserve">grab vines</command>
         <result xml:space="preserve">That's not a verb I recognise.
@@ -264,6 +2017,154 @@ I don't suppose the Flies would care for that.
         <result xml:space="preserve">That's hardly portable.
 
 &gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1444">
+        <command xml:space="preserve">climb vines</command>
+        <result xml:space="preserve">You swing on the vines like Tarzan to the Kermit Frog Tree where you jump off.
+
+Tree Trunk
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1446"></child>
+        </children>
+    </item>
+    <item nodeId="node-1446">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1447"></child>
+        </children>
+    </item>
+    <item nodeId="node-1447">
+        <command xml:space="preserve">take frog</command>
+        <result xml:space="preserve">The Kermit Frogs are still hiding. You need to lure them out.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1448"></child>
+        </children>
+    </item>
+    <item nodeId="node-1448">
+        <command xml:space="preserve">d</command>
+        <result xml:space="preserve">
+Tree Trunk
+You tilt your head backwards to stare up at the 80-foot tall tree. The calls of "Rainbow Connection" are deafening. Flies swarm all around you making it hard to locate the branch that the Kermit Frogs are on. 
+ The path you came from is south and the branch of the Kermit Frogs is above you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1449"></child>
+        </children>
+    </item>
+    <item nodeId="node-1449">
+        <command xml:space="preserve">open backpack</command>
+        <result xml:space="preserve">You open the backpack, revealing a Scooby snacks, a Water Bottle, a jar and a notebook.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1450"></child>
+        </children>
+    </item>
+    <item nodeId="node-1450">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You take the jar out of your backpack.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1451"></child>
+        </children>
+    </item>
+    <item nodeId="node-1451">
+        <command xml:space="preserve">catch flies</command>
+        <result xml:space="preserve">You collect some flies into your jar and screw the lid back on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1452"></child>
+        </children>
+    </item>
+    <item nodeId="node-1452">
+        <command xml:space="preserve">put jar in backpack</command>
+        <result xml:space="preserve">You put the jar back in your backpack.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1453"></child>
+        </children>
+    </item>
+    <item nodeId="node-1453">
+        <command xml:space="preserve">u</command>
+        <result xml:space="preserve">You grab onto the lower branches of the tree and start climbing.
+
+Branch
+You wipe the sweat from your forehead, tired from your climbing. The Kermit Frogs are all hiding in the nooks of the tree. 
+ The way to the path is below you.
+
+You can see a Kermit Frog here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1454"></child>
+        </children>
+    </item>
+    <item nodeId="node-1454">
+        <command xml:space="preserve">release flies</command>
+        <result xml:space="preserve">Wait, where are the flies?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1455"></child>
+        </children>
+    </item>
+    <item nodeId="node-1455">
+        <command xml:space="preserve">take jar</command>
+        <result xml:space="preserve">You take the jar out of your backpack.
+
+Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1456"></child>
+        </children>
+    </item>
+    <item nodeId="node-1456">
+        <command xml:space="preserve">release flies</command>
+        <result xml:space="preserve">The flies scatter all around you. You can see the Kermit Frogs coming out of their hiding spots because of the tempting food.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1457"></child>
+        </children>
+    </item>
+    <item nodeId="node-1457">
+        <command xml:space="preserve">take frog</command>
+        <result xml:space="preserve">You caught one!
+
+You win! Now you can go back to your lab and study this amazing creature.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
